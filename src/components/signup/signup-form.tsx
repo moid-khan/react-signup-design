@@ -17,19 +17,19 @@ import { Input } from "@/components/ui/input"
 import { toast } from "@/components/ui/use-toast"
 
 const FormSchema = z.object({
-    firstName: z.string().min(2, {
+    firstName: z.string().trim().min(2, {
         message: "First name must be at least 2 characters.",
     }),
-    lastName: z.string().min(2, {
+    lastName: z.string().trim().min(2, {
         message: "Last name must be at least 2 characters.",
     }),
-    businessName: z.string().min(2, {
+    businessName: z.string().trim().min(2, {
         message: "Business name must be at least 2 characters.",
     }),
-    workEmail: z.string().email({
+    workEmail: z.string().trim().email({
         message: "Please enter a valid email address.",
     }),
-    password: z.string().min(12, {
+    password: z.string().trim().min(12, {
         message: "Password must be at least 12 characters.",
     }),
 });
