@@ -32,7 +32,7 @@ export default function Home() {
             <p className="w-2/3 mt-3">Create an account in 5 minutes.</p>
           </div>
           <SignUpForm />
-          <p className="mt-12 text-xs">By clicking “Start Application“, I agree to Mercury's <Link href="#" className="underline">Terms of Use</Link>, <Link href="#" className="underline">Privacy Policy</Link> and to receive electronic communication about my accounts and services per <Link href="#" className="underline">Mercury's Electronic Communications Agreement</Link>, and acknowledge receipt of <Link href="#" className="underline">Mercur's USA PATRIOT Act disclosure.</Link></p>
+          <p className="mt-12 text-xs">By clicking “Start Application“, I agree to Mercury&apos;s <Link href="#" className="underline">Terms of Use</Link>, <Link href="#" className="underline">Privacy Policy</Link> and to receive electronic communication about my accounts and services per <Link href="#" className="underline">Mercury&apos;s Electronic Communications Agreement</Link>, and acknowledge receipt of <Link href="#" className="underline">Mercur&apos;s USA PATRIOT Act disclosure.</Link></p>
         </div>
       </div>
     </main>
